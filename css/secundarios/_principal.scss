@@ -1,0 +1,39 @@
+/*PRINCIPAL*/
+
+.main{
+    background-image: url("../img/fondo_main.png");
+    background-size: cover;
+}
+.cardd{
+    background-color:rgba(190, 188, 188, 0.615) ;
+    position: absolute;
+    margin-left: 12%;
+    padding: 1% 2% 1% 2%;
+    top:20%;
+    // display: flex;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+
+    h3{
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+        margin: 20px;
+    }
+
+    .cardd__description{
+        padding: 2px;
+        margin: 15px 2px;
+        // font-size: 12px;
+    }
+
+    .boton{
+        background-color:rgb(210, 105, 123);
+        margin: 20px 50px;
+        padding: 5px;
+        border-radius: 10px;
+        text-decoration: none;
+        text-transform: none;
+    }
+}

@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+.encabezado{
+    background-color: rgb(210, 105, 123);
+    padding: 8px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 80px;
+}
+
+.menu{
+    display:flex;
+    gap: 10px;
+    list-style: none;
+    /* text-align: right; */
+    flex-wrap: wrap;
+}
+
+a{
+    color:black;
+    padding: 6px;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: rgb(110, 4, 4);
+}
+
+
+/*SECCION PRINCIPAL*/
+
+.principal{
+    background-image: url("../img/fondo_main.png");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    padding: 20px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+.principal h2{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.277);
+    /* padding: 30px;
+    border-radius: 10px;
+    text-align: center; */
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.principal2{
+    padding: 10px 80px 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.principal2 img{
+    width: 500px;
+    border-radius: 10px;
+    justify-items: center;
+    justify-content: center;
+}
+
+.card{
+    background-color:rgba(190, 188, 188, 0.615) ;
+    border-radius: 10px;
+    height: 450px;
+    width: 350px;
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.card h3{
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+.card__description{
+    padding: 2px;
+    margin: 15px 2px;
+}
+
+.boton{
+    background-color:rgb(210, 105, 123);
+    margin: 20px 100px;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+
+/* FOOTER */
+
+.final{
+    background: rgb(224,30,47);
+    background: radial-gradient(circle, rgba(224,30,47,1) 9%, rgba(207,78,213,1) 91%);
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* NUEVO INGRESO*/
+
+.principal_ni{
+    background-color:rgba(250, 218, 215, 0.785) ;
+    background-size: cover;
+    /* height: 100vh; */
+    padding: 20px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+.principal_ni h2{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.44);
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.newfotos{
+    padding: 0px 100px;
+    display: flex;
+    gap: 50px;
+}
+
+.newfotos__imagen{
+    width: 95%;
+}
+
+.marcaagua{
+    position: absolute;
+    bottom: 25px;
+    left: 20%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.foto{
+    position: relative;
+}
+
+
+/* NOSOTROS*/
+.titulo{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.44);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.principal_nos img{
+    width: 60%;
+    margin: 50px 50px 50px 100px;
+    border-radius: 10px;
+}
+
+.principal_nos{
+    background-image: url("../img/fondo_main.png");
+    background-size: cover;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        ". nosotros";
+}
+.paquete{
+    grid-area: nosotros;
+    background-color: rgba(165, 42, 42, 0.355);
+    color: white;
+    padding: 100px 60px;
+}
+
+.espacio{
+    border-bottom: 2px solid white;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.contac{
+    background-color: rgb(190, 188, 188) ;
+    width: 350px;
+    margin: 50px;
+}
+
+h3{
+    text-align: justify;
+}
+.nosotr{
+    width: 600px;
+    margin: 30px;
+}
+
+
+@media screen and (max-width: 768px){
+    .principal h2{
+        background-color: brown;
+    }
+
+    .newfotos{
+        flex-direction: column;
+    }
+    .paquete{
+        display: flex;
+    }
+}

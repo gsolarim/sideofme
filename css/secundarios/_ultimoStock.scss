@@ -1,0 +1,32 @@
+/*ULTIMO STOCK*/
+
+main{
+    background-color:rgba(250, 218, 215, 0.785) ;
+    
+    .container{
+        background-size: cover;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    
+        h2{
+            color: white;
+            background-color: rgba(0, 0, 0, 0.44);
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 20px;
+        }
+        
+        .card-body{
+            padding: 5px;
+        }
+
+        .btnHover{
+            background-color:rgb(210, 105, 123);
+            padding: 5px;
+            border-radius: 10px;
+            text-decoration: none;
+            text-transform: none;
+        }
+    }
+}

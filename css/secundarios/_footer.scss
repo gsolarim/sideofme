@@ -1,0 +1,43 @@
+/*FOOTER*/
+
+.final{
+    font-size: 15px;
+    background: rgb(224,30,47);
+    background: radial-gradient(circle, rgba(224,30,47,1) 9%, rgba(207,78,213,1) 91%);
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+    padding: 30px;
+    width: 400px;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+
+    .pagina {
+        display: flex;
+        justify-content: center;
+    
+        .icono {
+            text-decoration: none;
+            font-size: 30px;
+            gap: 50px;
+    
+            .pagina1 {
+                width: 50px;
+                padding: 10px;
+                flex-grow: 1;
+            }
+        }
+    }
+    @include tabletsmall {
+        width: 200px;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    @include mobile {
+        width: 200px;
+        padding: 0;
+        flex-direction: column;
+    }
+}

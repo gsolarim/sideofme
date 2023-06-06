@@ -1,0 +1,25 @@
+/*ENCABEZADO*/
+
+.encabezado{
+    background-color: rgb(210, 105, 123);
+    padding: 8px 20px;
+
+    .logo{
+        width: 90px;
+    }
+    .collapse{
+        width: 900px;
+        flex-wrap: wrap;
+    }
+    .navbar-nav{
+        display:flex;
+        gap: 10px;
+        list-style: none;
+        flex-wrap: wrap;
+        justify-content: end;
+
+        a:hover{
+            color: rgb(110, 4, 4);
+        }
+    }
+}

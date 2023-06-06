@@ -1,0 +1,26 @@
+/*CONTACTO*/
+
+.contac{
+    background-color: rgb(225, 148, 148) ;
+    width: 90%;
+    margin: 20px;
+    padding: 10px;
+
+    .p_contacto{
+        text-align: center;
+    }
+
+    p{
+        margin: 5px;
+    }
+
+    .boton{
+        background-color:rgba(104, 29, 41, 0.505);
+        color: white;
+        margin: 10px 5px;
+        padding: 10px;
+        border-radius: 10px;
+        text-decoration: none;
+        text-transform: none;
+    }
+}
